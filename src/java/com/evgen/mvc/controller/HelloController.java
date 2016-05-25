@@ -1,9 +1,6 @@
 package com.evgen.mvc.controller;
 
-
 import com.evgen.mvc.entity.User;
-
-
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -18,7 +15,7 @@ import javax.validation.Valid;
 @RequestMapping(value="/valid")
 
 public class HelloController {
-     @RequestMapping(method=RequestMethod.GET)
+    @RequestMapping(method=RequestMethod.GET)
     public String loadFormPage(Model m) {
         m.addAttribute("user", new User());
         return "hello";

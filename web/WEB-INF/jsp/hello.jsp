@@ -35,7 +35,7 @@
         <br/>
  
         <label for="dateInput">Birthday: </label>
-        <form:input path="date" id="dateInput" placeholder="MM/DD/YYYY" />
+        <form:input path="date" id="dateInput" placeholder="dd.MM.yyyy" />
         <form:errors path="date" cssClass="error" />
         <br/>
  
